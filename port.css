@@ -575,3 +575,587 @@ button a {
 /* akhir pemrograman */
 /* iki akhir experience*/
 
+@media only screen and (max-width:464px) {
+    body {
+        background-color: #011D31;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .container {
+        background-color: transparent;
+        width: 90%;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .nav {
+        margin-top: -999px;
+    }
+    .rk {
+        margin-top: -999px;
+    }
+    .nav a {
+        margin-top: -999px;
+    }
+    .hero {
+        background-color:transparent;
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        box-sizing: border-box;
+        display: block;
+    }
+    .pengenal {
+        width: 100%;
+        height: auto;
+        background-color:transparent;
+    }
+    .sapa {
+        background-color:transparent;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        box-sizing: border-box;
+        font-style: bold;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #08D9CC;
+    }
+    .raka {
+        margin-top: 0;
+        font-size: 6vh;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: auto;
+        height: auto;
+        font-weight: 800;
+    }
+    .raka p {
+        margin: 0;
+    }
+    .putra p {
+        margin: 0;
+        color: #0EA3E3;
+    }
+    .sapa p {
+        margin: 0;
+        color: #0EA3E3;
+    }
+    .putra {
+        font-size: 6vh;
+        color: #0EA3E3;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: auto;
+        height: auto;
+        font-weight: 800;
+    }
+    .nama {
+        background-color:transparent;
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 0px;
+    }
+    .school {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        font-style: bold;
+        font-size: 2vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .school p {
+        margin: 0;
+        color: white;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .kenal {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+    .kenal p {
+        width: auto;
+        font-size: 2vh;
+        height: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: white;
+        margin: 0;
+    }
+    .but {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+    button {
+        width: 40%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2vh;
+        height: 50px;
+        background-color:#08D9CC ;
+        font-weight: 500;
+        color: white;
+        border-radius: 61px;
+        border-style: solid;
+        margin-top: 16px;
+    }
+    button a {
+        color: white;
+        font-weight: 500;
+        font-size: 2vh;
+        text-decoration: none;
+    }
+    .foto {
+        width: 100%;
+        height: auto ;
+        background-color: transparent;
+    }
+    .foto img {
+        margin: auto;
+        width: 270px;
+        height: 270px;
+        margin-top: 0;
+    }
+    /* about */
+    .about {
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        background-color: transparent;
+        box-sizing: border-box;
+        display: block;
+    }
+    .gede {
+        width: 100%;
+        height: auto ;
+        background-color: transparent;
+    }
+    .grav {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 0;
+        font-style: italic;
+        font-size: 5vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #FFC90A;
+        font-weight: 600;
+    }
+    .grav p {
+        margin-bottom: 0;
+    }
+    .mari {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        font-size: 2vh;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mari p {
+        margin: 0;
+        line-height: 0;
+    }
+    .desk {
+        width: 100%;
+        height: auto ;
+        background-color: transparent;
+    }
+    .deskripsi {
+        font-size: 3vh;
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+        font-style: regular ;
+    }
+    .ayo {
+        width: auto;
+        height: auto;
+        font-size: 24px;
+        color: #08D9CC;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .icon {
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+    .icon img {
+        width: 51px;
+        height: 51px;
+    }
+    /* hobby */
+    .hobby {
+        width: 100%;
+        height: auto;
+        background-color:transparent;
+        display: block;
+        box-sizing: border-box;
+    }
+    .hobii {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        text-align: center;
+    }
+    .hobii h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 4vh;
+        color: #08D9CC;
+        font-style: bold;
+    }
+    .masak p {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-left: 0;
+        margin-bottom:0;
+    }
+    .masak {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .masak img {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+        margin-top: 17px;
+    }
+    .game {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .game img {
+        width: 90px;
+        height: 90px;
+        margin-left: 0;
+        margin-top: 17px;
+    }
+    .game p {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-top: 22px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .gam1 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: 0;
+    }
+    .gam2 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: 0;
+    }
+    .musik {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .musik img {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 23px;
+    }
+    .mas1 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: 0;
+    }
+    .mas2 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: 0;
+    }
+    .musik p {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 28px;
+    }
+    .mus1 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: auto;
+    }
+    .mus2 {
+        font-size: 3vh;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        width: auto;
+        margin-left: 0;
+    }
+    .mkk {
+        display: flex;
+    }
+    .mkk2 {
+        margin-left: 30px ;
+        width: auto;
+    }
+    .gmm {
+        display: flex;
+    }
+    .gm2 {
+        margin-left: 40px;
+        width: auto;
+    }
+    .muu {
+        display: flex;
+    }
+    .muu2 {
+        margin-left: 30px;
+        width: auto;
+    }
+    /* education */
+    .education {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        box-sizing: border-box;
+    }
+    .edu {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+    .list li {
+        list-style: disc;
+        font-size: 3vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-left: 50px;
+        font-weight: 600;
+    }
+    .list {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .edu p {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 4vh;
+        color: #08D9CC;
+        font-style: bold;
+        margin-bottom: 13px;
+    }
+    /* experience */
+    .experience {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background-color: transparent;
+    }
+    .jud p {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 4vh;
+        color: #08D9CC;
+        font-style: bold;
+        text-align: center;
+    }
+    .jud {
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+    }
+    .atas {
+        width: 100%;
+        background-color: transparent;
+        height: auto;
+        display: block;
+    }
+    .bawah {
+        width: 100%;
+        background-color:transparent;
+        height: auto;
+        display: block;
+    }
+    /* awal desain */
+    .desain {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    .fotodes {
+        background:url(desain.jpg) ;
+        width: 260px;
+        height: 160px;
+        border-radius: 15px;
+        margin-bottom: 10;
+        background-size: 288px;
+        margin-bottom: 10px;
+    }
+    .namades {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 0;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFC90A;
+    }
+    .deskdes {
+        width: 70%;
+        height: auto;
+        background-color: transparent;
+        font-size: 3vh;
+        margin: 15px 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* akhir desain */
+    /* awal scout */
+    .scout {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    .fotopra {
+        width: 100%;
+        height:auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .fotopra img {
+        width: 260px;
+        height: 160px;
+        border-radius: 15px;
+        background-size: 280px;
+    }
+    .namapra {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 0;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFC90A;
+    }
+    .deskpra {
+        width: 70%;
+        height: auto;
+        background-color: transparent;
+        font-size: 3vh;
+        color: white;
+        margin: 15px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* akhir scout */
+    /* awal animasi */
+    .animasi {
+        width:100%;
+        height: auto;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    .fotonim {
+        background:url(animasi.jpg) ;
+        width: 260px;
+        height: 160px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-size: 280px;
+    }
+    .namanim {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 0;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFC90A;
+    }
+    .desknim {
+        width: 70%;
+        height: auto;
+        background-color: transparent;
+        font-size: 3vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px 0;
+    }
+    /* akhir animasi */
+    /* awal pemrograman */
+    .soft {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    .fotosoft {
+        background: url(coding.jpeg) ;
+        width: 260px;
+        height: 160px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .namasoft {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 0;
+        font-size: 4vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFC90A;
+    }
+    .fotosoft img {
+        width: 260px;
+        height: 160px;
+        border-radius: 15px;
+        background-size: 280px;
+    }
+    .desksoft {
+        width: 70%;
+        height: auto;
+        background-color: transparent;
+        font-size: 3vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px 0;
+    }
+}
