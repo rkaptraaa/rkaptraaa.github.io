@@ -725,7 +725,7 @@ button a {
         background-color: transparent;
     }
     .foto img {
-        margin: auto;
+        margin: 0 auto;
         width: 270px;
         height: 270px;
         margin-top: 0;
@@ -811,6 +811,7 @@ button a {
         height: auto;
         background-color: transparent;
         text-align: center;
+        text-align: left;
     }
     .hobii h1 {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -847,7 +848,7 @@ button a {
         width: 90px;
         height: 90px;
         margin-left: 0;
-        margin-top: 17px;
+        margin-top: 38px;
     }
     .game p {
         font-size: 3vh;
@@ -884,7 +885,7 @@ button a {
         height: 100px;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 23px;
+        margin-top: 48px;
     }
     .mas1 {
         font-size: 3vh;
@@ -994,7 +995,7 @@ button a {
         font-size: 4vh;
         color: #08D9CC;
         font-style: bold;
-        text-align: center;
+        text-align: left;
     }
     .jud {
         background-color: transparent;
