@@ -9,7 +9,10 @@
 <body>
   <!-- awal navbar -->
     <div class="nav">
-        <ul>
+        <a href="#" id="toggle-menu">
+          Menu
+        </a>
+        <ul id="nav-menu">
             <li class="rk">Rkaptraaa</li>
             <li><a href="#5">Experience</a></li>
             <li><a href="#4">Education</a></li>
@@ -175,5 +178,14 @@
       <!--akhir experience  -->
     </div>
   <!-- akhir container -->
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-menu')
+    const menu = document.getElementById('nav-menu')
+
+    toggleBtn.onclick = function (e) {
+      menu.classList.toggle('hidden')
+    }
+  </script>
 </body>
 </html>
