@@ -23,7 +23,7 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav {
-    display: block;
+    display: flex;
     background-color: #011d314f;
     position: fixed;
     padding: 0;
@@ -42,7 +42,10 @@ ul {
     position: absolute;
     display: none;
   }
-.nav .li a {
+  .nav ul {
+    display: flex;
+  }
+.nav li a {
     margin-right: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: right;
@@ -51,6 +54,7 @@ ul {
     text-decoration: none;
     font-size: 26px;
     margin-top: 13px;
+    display: flex;
 }
 .nav .li a:hover {
     color: aqua;
