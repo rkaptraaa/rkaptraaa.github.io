@@ -5,6 +5,8 @@ body {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    top: 0;
+    margin-bottom: 0;
     position: relative;
 }
 /*navbar */
@@ -42,8 +44,12 @@ ul {
     position: absolute;
     display: none;
   }
+  .nav li:first-child {
+    margin-right: 470px;
+  }
   .nav ul {
     display: flex;
+    width: 100%;
   }
 .nav li a {
     margin-right: 40px;
@@ -56,7 +62,7 @@ ul {
     margin-top: 13px;
     display: flex;
 }
-.nav .li a:hover {
+.nav li a:hover {
     color: aqua;
   }
   /* akhir navigasi */
