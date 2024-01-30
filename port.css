@@ -594,7 +594,7 @@ button a {
 @media only screen and (max-width:464px) {
     body {
         background-color: #011D31;
-        width: 100%;
+        width: auto;
         height: auto;
         box-sizing: border-box;
         margin-left: auto;
@@ -603,11 +603,9 @@ button a {
     }
     .container {
         background-color: transparent;
-        width: 90%;
+        width: 100%;
         margin-top: 10px;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
         height: auto;
     }
     .nav {
@@ -618,8 +616,18 @@ button a {
         top: 10px;
         right: 10px;
     }
+    .nav #toggle-menu img {
+        width: 30px;
+        height: 25px;
+    }
     .nav ul {
-        background-color: white;
+        background-color: rgb(6, 7, 37);
+        display: block;
+        height: 300px;
+    }
+    .nav #nav-menu li a {
+        background-color: #18eee0;
+        color: red;
     }
     .nav ul.hidden {
         display: none;
@@ -650,7 +658,7 @@ button a {
     }
     .sapa {
         background-color:transparent;
-        width: 100%;
+        width: auto;
         height: auto;
         margin-top: 0;
         box-sizing: border-box;
@@ -672,6 +680,7 @@ button a {
     }
     .raka p {
         margin: 0;
+        margin-left: 5px;
     }
     .putra p {
         margin: 0;
@@ -679,7 +688,9 @@ button a {
     }
     .sapa p {
         margin: 0;
+        margin-left: 5px;
         color: #08D9CC;
+        width: auto;
     }
     .putra {
         font-size: 6vh;
@@ -710,6 +721,7 @@ button a {
     .school p {
         margin: 0;
         color: white;
+        margin-left: 5px;
         margin-bottom: 5px;
         width: 100%;
     }
@@ -727,10 +739,12 @@ button a {
         font-weight: 700;
         color: white;
         margin: 0;
+        margin-left: 5px;
     }
     .but {
         width: 100%;
         height: auto;
+        margin-left: 5px;
         background-color: transparent;
     }
     button {
@@ -789,6 +803,7 @@ button a {
     }
     .grav p {
         margin-bottom: 0;
+        margin-left: 5px;
     }
     .mari {
         width: 100%;
@@ -802,6 +817,7 @@ button a {
     .mari p {
         margin: 0;
         line-height: 0;
+        margin-left: 5px;
     }
     .desk {
         width: 100%;
@@ -814,12 +830,18 @@ button a {
         color: white;
         font-style: regular ;
     }
+    .deskripsi p {
+        margin-left: 5px;
+    }
     .ayo {
         width: auto;
         height: auto;
         font-size: 24px;
         color: #08D9CC;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ayo p {
+        margin-left: 5px;
     }
     .icon {
         width: auto;
@@ -829,6 +851,9 @@ button a {
     .icon img {
         width: 51px;
         height: 51px;
+    }
+    .icon img:first-child {
+        margin-left: 5px;
     }
     /* hobby */
     .hobby {
@@ -851,6 +876,7 @@ button a {
         font-size: 4vh;
         color: #08D9CC;
         font-style: bold;
+        margin-left: 5px;
     }
     .masak p {
         font-size: 3vh;
@@ -868,7 +894,7 @@ button a {
     .masak img {
         width: 100px;
         height: 100px;
-        margin-left: 0;
+        margin-left: 5px;
         margin-top: 17px;
     }
     .game {
@@ -879,7 +905,7 @@ button a {
     .game img {
         width: 90px;
         height: 90px;
-        margin-left: 0;
+        margin-left: 5px;
         margin-top: 38px;
     }
     .game p {
@@ -915,7 +941,7 @@ button a {
     .musik img {
         width: 100px;
         height: 100px;
-        margin-left: 0;
+        margin-left: 5px;
         margin-right: 0;
         margin-top: 48px;
     }
@@ -1011,6 +1037,7 @@ button a {
         font-weight: 700;
         font-size: 4vh;
         color: #08D9CC;
+        margin-left: 5px;
         font-style: bold;
         margin-bottom: 13px;
     }
@@ -1027,6 +1054,7 @@ button a {
         font-size: 4vh;
         color: #08D9CC;
         font-style: bold;
+        margin-left: 5px;
         text-align: left;
     }
     .jud {
@@ -1061,6 +1089,7 @@ button a {
         margin-bottom: 10;
         background-size: 288px;
         margin-bottom: 10px;
+        margin-left: 5px;
     }
     .namades {
         width: 100%;
@@ -1070,6 +1099,7 @@ button a {
         font-size: 4vh;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFC90A;
+        margin-left: 5px;
     }
     .deskdes {
         width: 70%;
@@ -1078,6 +1108,7 @@ button a {
         font-size: 3vh;
         margin: 15px 0;
         color: white;
+        margin-left: 5px;
         font-family: Arial, Helvetica, sans-serif;
     }
     /* akhir desain */
@@ -1098,7 +1129,9 @@ button a {
         width: 260px;
         height: 160px;
         border-radius: 15px;
+        margin-left: 5px;
         background-size: 280px;
+        margin-left: 5px;
     }
     .namapra {
         width: 100%;
@@ -1108,6 +1141,7 @@ button a {
         font-size: 4vh;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFC90A;
+        margin-left: 5px;
     }
     .deskpra {
         width: 70%;
@@ -1115,7 +1149,7 @@ button a {
         background-color: transparent;
         font-size: 3vh;
         color: white;
-        margin: 15px 0;
+        margin: 15px 5px;
         font-family: Arial, Helvetica, sans-serif;
     }
     /* akhir scout */
@@ -1132,6 +1166,7 @@ button a {
         height: 160px;
         border-radius: 15px;
         margin-bottom: 10px;
+        margin-left: 5px;
         background-size: 280px;
     }
     .namanim {
@@ -1142,6 +1177,7 @@ button a {
         font-size: 4vh;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFC90A;
+        margin-left: 5px;
     }
     .desknim {
         width: 70%;
@@ -1151,6 +1187,7 @@ button a {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         margin: 15px 0;
+        margin-left: 5px;
     }
     /* akhir animasi */
     /* awal pemrograman */
@@ -1164,6 +1201,7 @@ button a {
         background: url(coding.jpeg) ;
         width: 260px;
         height: 160px;
+        margin-left: 5px;
         margin-bottom: 10px;
         border-radius: 20px;
     }
@@ -1175,12 +1213,14 @@ button a {
         font-size: 4vh;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFC90A;
+        margin-left: 5px;
     }
     .fotosoft img {
         width: 260px;
         height: 160px;
         border-radius: 15px;
         background-size: 280px;
+        margin-left: 5px;
     }
     .desksoft {
         width: 70%;
@@ -1190,5 +1230,6 @@ button a {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         margin: 15px 0;
+        margin-left: 5px;
     }
 }
