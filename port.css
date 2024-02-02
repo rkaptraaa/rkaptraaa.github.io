@@ -608,13 +608,11 @@ button a {
         align-items: center;
         height: auto;
     }
-    .nav {
-        /* margin-top: -999px; */
-    }
     .nav #toggle-menu {
         display: block;
         top: 10px;
         right: 10px;
+
     }
     .nav #toggle-menu img {
         width: 30px;
@@ -636,12 +634,29 @@ button a {
         padding: 6px;
         width: 100%;
         display: block;
+
+
     }
-    .rk {
-        margin-top: -999px;
+    .nav #toggle-menu img {
+        width: 30px;
+        height: 25px;
     }
-    .nav a {
-        /* margin-top: -999px; */
+    .nav ul {
+        background-color: rgb(6, 7, 37);
+        display: block;
+        height: 300px;
+    }
+    .nav #nav-menu li a {
+        background-color: #18eee0;
+        color: red;
+    }
+    .nav ul.hidden {
+        display: none;
+    }
+    .nav ul a {
+        padding: 6px;
+        width: 100%;
+        display: block;
     }
     .hero {
         background-color:transparent;
