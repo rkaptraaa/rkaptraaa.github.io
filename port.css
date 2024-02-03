@@ -626,6 +626,9 @@ button a {
     .nav #nav-menu li a {
         background-color: #18eee0;
         color: red;
+        width: 82%;
+        margin-right: 55px;
+        
     }
     .nav ul.hidden {
         display: none;
