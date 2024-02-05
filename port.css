@@ -598,10 +598,11 @@ button a {
 @media only screen and (max-width:464px) {
     body {
         background-color: #011D31;
-        width: 100%;
-        height: auto;
+        width: 100vmin;
+        height: 100vmax;
         box-sizing: border-box;
         margin-left: auto;
+        background-size: cover;
         margin-right: auto;
         position: relative;
     }
