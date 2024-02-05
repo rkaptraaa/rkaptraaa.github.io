@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #011D31;
     width: 100%;
@@ -595,7 +598,7 @@ button a {
 @media only screen and (max-width:464px) {
     body {
         background-color: #011D31;
-        width: auto;
+        width: 100%;
         height: auto;
         box-sizing: border-box;
         margin-left: auto;
@@ -604,10 +607,12 @@ button a {
     }
     .container {
         background-color: transparent;
-        width: 100%;
+        width: 90%;
         margin-top: 10px;
         align-items: center;
         height: auto;
+        margin-right: 0;
+        margin-left: 20px;
     }
     .nav #toggle-menu {
         display: block;
@@ -643,20 +648,20 @@ button a {
     }
     .hero {
         background-color:transparent;
-        width: 100%;
+        width: 85%;
         box-sizing: border-box;
         height: auto;
         box-sizing: border-box;
         display: block;
     }
     .pengenal {
-        width: 100%;
+        width: 90%;
         height: auto;
         background-color:transparent;
     }
     .sapa {
         background-color:transparent;
-        width: auto;
+        width: 90%;
         height: auto;
         margin-top: 0;
         box-sizing: border-box;
@@ -688,7 +693,7 @@ button a {
         margin: 0;
         margin-left: 5px;
         color: #08D9CC;
-        width: auto;
+        width: 100%;
     }
     .putra {
         font-size: 6vh;
@@ -700,7 +705,7 @@ button a {
     }
     .nama {
         background-color:transparent;
-        width: 100%;
+        width: 50%;
         height: auto;
         display: flex;
         margin-top: 0px;
@@ -764,7 +769,7 @@ button a {
         text-decoration: none;
     }
     .foto {
-        width: 100%;
+        width: 80%;
         height: auto ;
         background-color: transparent;
     }
@@ -776,7 +781,7 @@ button a {
     }
     /* about */
     .about {
-        width: 100%;
+        width: 90%;
         box-sizing: border-box;
         height: auto;
         background-color: transparent;
@@ -855,7 +860,7 @@ button a {
     }
     /* hobby */
     .hobby {
-        width: 100%;
+        width: 90%;
         height: auto;
         background-color:transparent;
         display: block;
@@ -1007,7 +1012,7 @@ button a {
     }
     /* education */
     .education {
-        width: 100%;
+        width: 90%;
         height: auto;
         background-color: transparent;
         box-sizing: border-box;
@@ -1041,7 +1046,7 @@ button a {
     }
     /* experience */
     .experience {
-        width: 100%;
+        width: 90%;
         height: auto;
         box-sizing: border-box;
         background-color: transparent;
