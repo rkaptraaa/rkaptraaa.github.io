@@ -594,6 +594,64 @@ button a {
 }
 /* akhir pemrograman */
 /* iki akhir experience*/
+/* kontak */
+.kontak {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.kontak .st {
+    color: #08D9CC;
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kontak .des {
+    color: rgb(231, 229, 229);
+    text-align: center;
+}
+.kontak h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+.kontak .rom {
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+}
+.kontak .rom .aran input {
+    width: 820px;
+    margin-left: 215px;
+    height: 40px;
+    border-radius: 9px;
+}
+.kontak .rom label {
+    margin-left: 215px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+    color:#08D9CC;
+}
+.kontak .rom .emel input {
+    width: 820px;
+    height: 40px;
+    border-radius: 9px;
+    margin-left: 215px;
+}
+.kontak .rom .pea input {
+    width: 820px;
+    height: 100px;
+    margin-left: 215px;
+    border-radius: 9px;
+    margin-bottom: 80px;
+}
+/* kontak akhir */
 
 @media only screen and (max-width:464px) {
     body {
@@ -626,7 +684,7 @@ button a {
     }
     .nav ul {
         background-color: rgb(6, 7, 37);
-        display: block;
+        display: none;
         height: 300px;
     }
     .nav #nav-menu li a {
@@ -637,7 +695,7 @@ button a {
         
     }
     .nav ul.hidden {
-        display: none;
+        display: block;
     }
     .nav ul a {
         padding: 6px;
@@ -1235,5 +1293,61 @@ button a {
         font-family: Arial, Helvetica, sans-serif;
         margin: 15px 0;
         margin-left: 5px;
+    }
+    .kontak {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kontak .st {
+        color: #08D9CC;
+        font-size: 20px;
+        font-weight: 650;
+        text-align: center;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .kontak .des {
+        color: rgb(231, 229, 229);
+        text-align: center;
+    }
+    .kontak h2 {
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin: 0;
+    }
+    .kontak .rom {
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+    }
+    .kontak .rom .aran input {
+        width: 70%;
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 9px;
+    }
+    .kontak .rom label {
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        margin-top: 40px;
+        font-weight: 600;
+        color:#08D9CC;
+    }
+    .kontak .rom .emel input {
+        width: 70%;
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 9px;
+    }
+    .kontak .rom .pea input {
+        width: 70%;
+        margin-left: 10px;
+        height: 60px;
+        border-radius: 9px;
     }
 }
