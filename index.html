@@ -9,7 +9,7 @@
 <body>
   <!-- awal navbar -->
     <div class="nav">
-        <a href="#" id="toggle-menu">
+        <a href="#" id="toggle-menu" class="satu dua tiga">
           <img src="burger.png" alt="bar">
         </a>
         <ul id="nav-menu">
@@ -176,6 +176,25 @@
             </div>
       </div>
       <!--akhir experience  -->
+      <div class="kontak">
+        <p class="st">kontak</p>
+        <h2>Hubungi Kami</h2>
+        <p class="des">Mari Saling Berbagi Pendapat Bersama</p>
+        <div class="rom">
+          <div class="aran">
+            <label for="nama">Nama</label><br>
+            <input type="text" id="nama" placeholder="isi nama anda">
+          </div>
+          <div class="emel">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" placeholder="isi alamat email anda">
+          </div>
+          <div class="pea">
+            <label for="pesan">Pesan</label><br>
+            <input type="textarea" id="pesan">
+          </div>
+        </div>
+      </div>
     </div>
   <!-- akhir container -->
 
@@ -183,7 +202,7 @@
     const toggleBtn = document.getElementById('toggle-menu')
     const menu = document.getElementById('nav-menu')
 
-    toggleBtn.onclick = function (e) {
+    toggleBtn.onclick = function () {
       menu.classList.toggle('hidden')
     }
   </script>  
